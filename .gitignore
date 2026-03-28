@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch
+*.pt
+*.pth
+
+# Data (keep the download script, not the data itself)
+data/*.txt
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
